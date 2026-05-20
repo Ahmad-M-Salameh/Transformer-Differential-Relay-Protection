@@ -12,22 +12,22 @@ Tested Scenarios:
 5.Single-phase internal fault → Trip
 
 Key Features:
-Percentage differential protection
-2nd harmonic inrush blocking
-5th harmonic restraint
-High-set tripping
-Trip latching
-Circuit breaker control
+1.Percentage differential protection
+2.2nd harmonic inrush blocking
+3.5th harmonic restraint
+4.High-set tripping
+5.Trip latching
+6.Circuit breaker control
 
 Files:
-Transformer_Diff_Relay.slx` - Simulink model
-Relay_advanced.m` - MATLAB Function code
-protection.pdf` - Full report
+1.Transformer_Diff_Relay.slx` - Simulink model
+2.Relay_advanced.m` - MATLAB Function code
+3.protection.pdf` - Full report
 
 How to Run:
-Open MATLAB
-Open Transformer_Diff_Relay.slx
-Run simulation
-License
+1.Open MATLAB
+2.Open Transformer_Diff_Relay.slx
+3.Run simulation
 
+License
 MIT License
