@@ -5,11 +5,11 @@ Overview
 MATLAB/Simulink differential protection relay for three-phase power transformers. Calculates differential and restraint currents, applies 2nd harmonic inrush blocking and 5th harmonic restraint. Includes high-set tripping and CB control.
 
 Tested Scenarios:
-Normal operation → No trip
-Three-phase internal fault → Trip
-External fault → No trip
-Transformer energization (inrush) → Blocked (no trip)
-Single-phase internal fault → Trip
+1.Normal operation → No trip
+2.Three-phase internal fault → Trip
+3.External fault → No trip
+4.Transformer energization (inrush) → Blocked (no trip)
+5.Single-phase internal fault → Trip
 
 Key Features:
 Percentage differential protection
