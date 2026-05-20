@@ -1,33 +1,42 @@
-Author: Ahmad M. Salameh
+# Transformer Differential Relay Protection
 
-Overview
+**Author:** Ahmad M. Salameh
 
-MATLAB/Simulink differential protection relay for three-phase power transformers. Calculates differential and restraint currents, applies 2nd harmonic inrush blocking and 5th harmonic restraint. Includes high-set tripping and CB control.
+## Overview
 
-Tested Scenarios:
-1.Normal operation → No trip
-2.Three-phase internal fault → Trip
-3.External fault → No trip
-4.Transformer energization (inrush) → Blocked (no trip)
-5.Single-phase internal fault → Trip
+MATLAB/Simulink differential protection relay for three-phase power transformers.  
+The relay calculates differential and restraint currents, applies 2nd harmonic inrush blocking, 5th harmonic restraint, high-set tripping, trip latching, and circuit breaker control.
 
-Key Features:
-1.Percentage differential protection
-2.2nd harmonic inrush blocking
-3.5th harmonic restraint
-4.High-set tripping
-5.Trip latching
-6.Circuit breaker control
+## Tested Scenarios
 
-Files:
-1.Transformer_Diff_Relay.slx` - Simulink model
-2.Relay Algorethim - MATLAB Function code
-3.Transformer Differential Protection.pdf - Full report
+1. Normal operation → No trip  
+2. Three-phase internal fault → Trip  
+3. External fault → No trip  
+4. Transformer energization (inrush) → Blocked, no trip  
+5. Single-phase internal fault → Trip  
 
-How to Run:
-1.Open MATLAB
-2.Open Transformer_Diff_Relay.slx
-3.Run simulation
+## Key Features
 
-License
+- Percentage differential protection
+- 2nd harmonic inrush blocking
+- 5th harmonic restraint
+- High-set tripping
+- Trip latching
+- Circuit breaker control
+
+## Files
+
+- `Transformer_Diff_Relay.slx` — Simulink model
+- `Relay Algorithm (Code).m` — MATLAB Function code
+- `Transformer Differential Protection.pdf` — Full report
+
+## How to Run
+
+1. Open MATLAB.
+2. Open `Transformer_Diff_Relay.slx`.
+3. Run the simulation.
+4. Check the trip signal and relay outputs.
+
+## License
+
 MIT License
