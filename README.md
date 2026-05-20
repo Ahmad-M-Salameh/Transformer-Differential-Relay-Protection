@@ -21,8 +21,8 @@ Key Features:
 
 Files:
 1.Transformer_Diff_Relay.slx` - Simulink model
-2.Relay_advanced.m` - MATLAB Function code
-3.protection.pdf` - Full report
+2.Relay Algorethim - MATLAB Function code
+3.Transformer Differential Protection.pdf - Full report
 
 How to Run:
 1.Open MATLAB
